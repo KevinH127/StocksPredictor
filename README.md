@@ -13,7 +13,7 @@ I constructed Keras' Sequential Model using Long Short-Term Memory (LSTM) layers
 During the training process, I used trial and error to fine-tune the hyperparameters such as the batch size, and number of epochs to improve the model's accuracy. At the end, I found that a batch size of 1, and 10 number of epochs gave me the most accurate results.
 
 ### Results
-After training and testing my model with the Apple stock data from 2019-05-07 to 2024-05-07, it predicted that the closing price for Apple Stock on 2024-05-08 will be $182.09. As of today (2024-05-09), I can conclude that I have succesfully trained my model to predict the future stock price as the actual closing price was $182.74, $0.65 away from my predicted price.
+After training and testing my model with the Apple stock data from 2019-05-07 to 2024-05-07, it predicted that the closing price for Apple Stock on 2024-05-08 will be $182.09. As of today (2024-05-09), I can conclude that I have succesfully trained my model to predict the Apple's future stock price as the actual closing price was $182.74, $0.65 away from my predicted price. Additionally, the model's predictions also follow the overall trends of the prices if you take a close look at the graphs.
 
 ## References
 1. https://ca.finance.yahoo.com/
